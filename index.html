@@ -1,101 +1,222 @@
-<!DOCTYPE html>
+.<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Padma Priya | Portfolio</title>
+<title>Padmapriya | HR Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
 body{
-    margin:0;
-    font-family:Arial, sans-serif;
-    background:#f4f7fc;
-    color:#333;
+background:#f4f8fc;
+color:#333;
 }
+
 header{
-    background:#0a66c2;
-    color:white;
-    text-align:center;
-    padding:50px 20px;
+background:linear-gradient(135deg,#0d6efd,#4facfe);
+color:white;
+text-align:center;
+padding:80px 20px;
 }
+
+header img{
+width:160px;
+height:160px;
+border-radius:50%;
+border:5px solid white;
+object-fit:cover;
+margin-bottom:20px;
+}
+
+header h1{
+font-size:42px;
+}
+
+header p{
+font-size:18px;
+margin-top:10px;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:12px 28px;
+background:white;
+color:#0d6efd;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+background:#eaf3ff;
+transform:translateY(-3px);
+}
+
 section{
-    max-width:900px;
-    margin:30px auto;
-    background:white;
-    padding:20px;
-    border-radius:10px;
-    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+max-width:1000px;
+margin:40px auto;
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.1);
 }
+
 h2{
-    color:#0a66c2;
+color:#0d6efd;
+margin-bottom:20px;
 }
-ul{
-    padding-left:20px;
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
 }
-.button{
-    display:inline-block;
-    background:#0a66c2;
-    color:white;
-    padding:10px 20px;
-    text-decoration:none;
-    border-radius:5px;
+
+.card{
+background:#f8fbff;
+padding:20px;
+border-radius:12px;
+transition:.3s;
 }
+
+.card:hover{
+transform:translateY(-8px);
+}
+
 footer{
-    background:#0a66c2;
-    color:white;
-    text-align:center;
-    padding:15px;
-    margin-top:30px;
+background:#0d6efd;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
 }
+
 </style>
 </head>
 
 <body>
 
 <header>
-<img src="WhatsApp Image 2026-07-02 at 1.02.26 AM.jpeg" alt="Padma Priya" width="180">    
-<h1>Hi, I'm Padma Priya 👋</h1>
-<h3>MBA Graduate</h3>
-<p>HR | Recruitment | Business Analytics</p>
-<a href="padmapriya resume mba (1) (4) (1).pdf" target="_blank" class="button">
-    Download Resume
-</a>    
+
+<img src="https://via.placeholder.com/160" alt="Profile">
+
+<h1>Padmapriya T</h1>
+
+<p>MBA | Human Resources & Business Analytics</p>
+
+<p>Aspiring HR Professional | Recruitment | Talent Acquisition</p>
+
+<a class="btn" href="#">Download Resume</a>
+
 </header>
 
 <section>
+
 <h2>About Me</h2>
-<p>I am an MBA graduate passionate about Human Resources, Recruitment, and Business Analytics. I enjoy learning new skills and building my career in HR.</p>
-</section>
 
+<p>
+MBA graduate specializing in Human Resource Management and Business Analytics.
+Passionate about Recruitment, Talent Acquisition, HR Operations and Employee Engagement.
+Looking for opportunities to contribute and grow as an HR Professional.
+</p>
+
+</section>
 <section>
+
 <h2>Skills</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>HR Skills</h3>
 <ul>
-<li>Recruitment</li>
+<li>Recruitment & Selection</li>
+<li>Talent Acquisition</li>
+<li>HR Operations</li>
+<li>Employee Engagement</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Technical Skills</h3>
+<ul>
 <li>MS Excel</li>
+<li>Power BI</li>
 <li>Business Analytics</li>
-<li>Communication</li>
-<li>Teamwork</li>
+<li>SQL (Basic)</li>
 </ul>
-</section>
+</div>
 
-<section>
-<h2>Projects</h2>
+<div class="card">
+<h3>Soft Skills</h3>
 <ul>
-<li>HR Recruitment Dashboard</li>
-<li>Employee Data Analysis</li>
-<li>Business Analytics Portfolio</li>
+<li>Communication</li>
+<li>Leadership</li>
+<li>Teamwork</li>
+<li>Problem Solving</li>
 </ul>
+</div>
+
+</div>
+
 </section>
 
 <section>
+
+<h2>Projects</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Recruitment & Selection</h3>
+<p>
+Studied recruitment and selection processes at SINZO IT Services and suggested improvements to hiring efficiency.
+</p>
+</div>
+
+<div class="card">
+<h3>Training & Development</h3>
+<p>
+Analyzed the effectiveness of employee training programs at Axis Bank and provided recommendations for better performance.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
 <h2>Contact</h2>
-<p>Email: yourmail@gmail.com</p>
-<p>LinkedIn: Add your LinkedIn profile link</p>
+
+<p><strong>Email:</strong> vspriya1951@gmail.com</p>
+
+<p><strong>Location:</strong> Bengaluru, Karnataka</p>
+
+<p><strong>LinkedIn:</strong> https://www.linkedin.com/in/padma-priya-b04659226</p>
+
+<p><strong>GitHub:</strong> https://priyathota31.github.io/Priya-portfolio/</p>
+
 </section>
 
 <footer>
-© 2026 Padma Priya | Portfolio
+
+<p>© 2026 Padmapriya | HR Portfolio</p>
+
 </footer>
 
 </body>
+
 </html>
