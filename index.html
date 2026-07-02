@@ -18,8 +18,35 @@ body{
     color:white;
     line-height:1.6;
 }
+.hero{
+    animation: fadeIn 2s ease-in-out;
+}
 
-header{
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(50px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+.hero{
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(50px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+    header{
     text-align:center;
     padding:60px 20px;
 }
